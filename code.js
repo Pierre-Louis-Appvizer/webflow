@@ -67,6 +67,8 @@ setTimeout(()=> {
       previousArrow.style.visibility = "hidden";
     	previous.style.display = "none";
     	next.style.display = "none";
+    	nextArrow.style.visibility = "hidden";
+      console.log("next.style.display");
     } else {
       previousArrow.style.visibility = "visible";
       previous.style.display = "inline-block";
