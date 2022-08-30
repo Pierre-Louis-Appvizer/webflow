@@ -75,6 +75,7 @@ setTimeout(()=> {
     	const divServices = document.getElementById('lst-services');
        divServices.innerHTML = '<p>⌛</p>'
        userAction(serviceName.value);
+       next.style.display = "none";
     } if (page === 4) {
     	const title = document.getElementById('title_success');
       const sentence = document.getElementById('sentence_success');
